@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WantInfo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default container-fluid" style="margin: 0;">
+  <div class="container-fluid">
+  	<div class="navbar-header">
+  	<!-- responsive menu -->
+  	<button class="navbar-toggle" data-toggle="collapse" data-target=".mList">
+  		<span class="icon-bar"></span>
+  		<span class="icon-bar"></span>
+  		<span class="icon-bar"></span>
+  		<span class="icon-bar"></span>
+  		<span class="icon-bar"></span>
+  		<span class="icon-bar"></span>
+  	</button>
+  	 
+  	<div class="navbar-brand">
+  	  <img src="images/logo.png"><span id="logo_name">WantInfo</span>
+  	</div>
+  	</div>
+   
+    <!-- social media -->
+    <div style="" id="social">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href=""><img src="icons/facebook.png"></a></li>
+      <li><a href=""><img src="icons/twitter.png"></a></li>
+      <li><a href=""><img src="icons/google.png"></a></li>
+    </ul>
+    </div>
+
+    <!-- search bar -->
+     <form class=" nav navbar-nav form-inline navbar-right" 
+                  style="padding: 10px; margin-right:10px; ">
+     <div class="form-group">
+     <div class="input-group">
+      <input type="text" class="form-control" placeholder="search"/>
+     <div class="input-group-btn">
+      <button class="btn btn-primary" class="form-control"><span class="glyphicon glyphicon-search"></span></button>
+     </div>
+     </div>
+     </div>
+     </form>
+
+    <!-- menu list -->
+    <div class="collapse navbar-collapse mList">
+     <ul class="nav navbar-nav navbar-right" style="margin-right: 10px;">
+     	<li><a href="#">Home</a></li>
+     	<li><a href="#">Book</a></li>
+     	<li><a href="#">College</a></li>
+     	<li><a href="#">University</a></li>
+     	<li><a href="#">About Us</a></li>
+     	<li><a href="#">Contact Us</a></li>
+     </ul>
+    </div>
+    </div>
+    </nav>
+
+    <header>
+    	<h3 class="text-center">WantInfo</h3>
+    	<p class="lead text-center">Everything you want to know before you decide</p></h4>
+    	<img src="images/logo.png">
+      <button class="btn btn-primary" data-target="#modal1" data-toggle="modal">Click to review</button>
+    </header>
+
+    <div class="page-header text-center"><h4>Trusted resources based Users reviews</h4></div>
+
+    <div class="row">
+     <div class="col-md-4" style="border-right:1px solid black;" id="aside_menu">
+      
+     <!-- sign up  -->
+     <div class="sign_up">
+     <form>
+      <div class="form-group">
+       <label class="label-control">Name</label>
+       <input type="text" class="form-control" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+       <label class="label-control">Email</label>
+       <input type="text" class="form-control" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+       <button class="btn btn-primary" data-target="#modal1" data-toggle="modal">Sign up</button>
+      </div>
+     </form>
+     </div>
+     <!-- navigation menu left aside -->
+      <div id="menu_side">
+      <ul>
+      	<li class="well"><a href="">Book</a></li>
+      	<li class="well"><a href="">E-learning website</a></li>
+      	<li class="well"><a href="">Consumer Products</a></li>
+      	<li class="well"><a href="">Country and City</a></li>
+      	<li class="well"><a href="">School</a></li>
+      	<li class="well"><a href="">College</a></li>
+      	<li class="well"><a href="">University</a></li>
+      </ul>
+      </div>
+      </div>
+
+     <div class="col-md-8">
+       <!-- first row -->
+       <div class="row">
+       <!-- panel 1 -->
+       <div class="panel col-md-4">
+       <div class="panel-heading text-center">
+       	 <h4>Android for beginners</h4>
+       </div>
+       <div class="panel-body">
+       	<img src="images/android.jpg" class="img-thumbnail">
+       </div>
+       <div class="panel-footer">
+       	  <div class="pull-left">30 Rating</div>
+          <div class="pull-right">
+            <img src="images/5_star.png" style="width:100px; margin-top:-5px;">
+          </div>
+       </div>
+       </div>
+       <!-- panel 2 -->
+       <div class="panel col-md-4">
+       <div class="panel-heading text-center">
+       	 <h4>IOS for beginners</h4>
+       </div>
+       <div class="panel-body">
+       	<img src="images/ios.jpg" class="img-thumbnail">
+       </div>
+       <div class="panel-footer">
+       	  <div class="pull-left">20 Rating</div>
+          <div class="pull-right">
+            <img src="images/4_star.png" style="width:100px; margin-top:-5px;">
+          </div>
+       </div>
+       </div>
+       <!-- panel 3 -->
+       <div class="panel col-md-4">
+       <div class="panel-heading text-center">
+       	 <h4>Master HTML/CSS</h4>
+       </div>
+       <div class="panel-body">
+       	<img src="images/master.jpeg" class="img-thumbnail">
+       </div>
+       <div class="panel-footer">
+       	  <div class="pull-left">30 Rating</div>
+          <div class="pull-right">
+            <img src="images/5_star.png" style="width:100px; margin-top:-5px;">
+          </div>
+       </div>
+       </div>
+       </div>
+       <hr>
+       <!-- second row -->
+       <div class="row">
+       <!-- panel 1 -->
+       <div class="panel col-md-4">
+       <div class="panel-heading text-center">
+       	 <h4>Master Javascript</h4>
+       </div>
+       <div class="panel-body">
+       	<img src="images/javascript.jpg" class="img-thumbnail">
+       </div>
+       <div class="panel-footer">
+       	  <div class="pull-left">15 Rating</div>
+          <div class="pull-right">
+            <img src="images/3_star.png" style="width:100px; margin-top:-5px;">
+          </div>
+       </div>
+       </div>
+       <!-- panel 2 -->
+       <div class="panel col-md-4">
+       <div class="panel-heading text-center">
+       	 <h4>PHP for beginners</h4>
+       </div>
+       <div class="panel-body">
+       	<img src="images/php.jpg" class="img-thumbnail">
+       </div>
+       <div class="panel-footer">
+       	  <div class="pull-left">20 Rating</div>
+          <div class="pull-right">
+            <img src="images/3_star.png" style="width:100px; margin-top:-5px;">
+          </div>
+       </div>
+       </div>
+       <!-- panel 3 -->
+       <div class="panel col-md-4">
+       <div class="panel-heading text-center">
+       	 <h4>Wordpress for beginner</h4>
+       </div>
+       <div class="panel-body">
+       	<img src="images/wordpress.png" class="img-thumbnail">
+       </div>
+       <div class="panel-footer">
+       	  <div class="pull-left">25 Rating</div>
+          <div class="pull-right">
+            <img src="images/4_star.png" style="width:100px; margin-top:-5px;">
+          </div>
+       </div>
+       </div>
+       </div>
+       <hr>
+       <!-- third row -->
+       <div class="row">
+       <!-- panel 1 -->
+       <div class="panel col-md-4">
+       <div class="panel-heading text-center">
+       	 <h4>Computer Graphics</h4>
+       </div>
+       <div class="panel-body">
+       	<img src="images/graphics.jpeg" class="img-thumbnail">
+       </div>
+       <div class="panel-footer">
+       	  <div class="pull-left">12 Rating</div>
+          <div class="pull-right">
+            <img src="images/2_star.png" style="width:100px; margin-top:-5px;">
+          </div>
+       </div>
+       </div>
+       <!-- panel 2 -->
+       <div class="panel col-md-4">
+       <div class="panel-heading text-center">
+       	 <h4>Operating System</h4>
+       </div> 
+       <div class="panel-body">
+       	<img src="images/os.jpg" class="img-thumbnail">
+       </div>
+       <div class="panel-footer">
+       	  <div class="pull-left">20 Rating</div>
+          <div class="pull-right">
+            <img src="images/3_star.png" style="width:100px; margin-top:-5px;">
+          </div>
+       </div>
+       </div>
+       <!-- panel 3 -->
+       <div class="panel col-md-4">
+       <div class="panel-heading text-center">
+       	 <h4>Joomla for beginner</h4>
+       </div>
+       <div class="panel-body">
+       	<img src="images/joomla.jpg" class="img-thumbnail">
+       </div>
+       <div class="panel-footer">
+       	  <div class="pull-left">25 Rating</div>
+          <div class="pull-right">
+            <img src="images/4_star.png" style="width:100px; margin-top:-5px;">
+          </div>
+       </div>
+       </div>
+       </div>
+     </div>
+     </div>
+     <br><br><br>
+
+    <footer>
+    	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+    		<div class="navbar-header">
+    		 <div class="navbar-brand">WantInfo	</div>	
+    		</div>
+       
+            <ul class="nav navbar-nav navbar-center">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Copyright</a></li>
+            </ul>
+ 
+    	  </nav>
+    </footer>
+    
+    
+                <!-- modal -->
+          <div id="modal1" class="modal">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+             <button class="close" data-dismiss="modal">&times;</button>
+             <div class="modal-title">Sign up to review</div>
+            </div>
+            <div class="modal-body">
+             <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter your name" >
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter your Email" >
+              </div>
+             </form>  
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-dismiss="modal">Sign up</button>
+            </div>  
+            </div>
+          </div>
+          </div>
+
+
+
+</body>
+</html>

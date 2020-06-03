@@ -1,0 +1,100 @@
+
+        header h3{
+        	color:white; 
+        	font-weight: bold;
+        	font-size: 2em;
+        }
+        header button{
+        	position: relative;
+	        margin: 0 auto;
+	        right: 58%;
+	        left: 42%;
+	        top: -120px;
+	        width: 200px;
+        }
+	    header{
+	    	width: 100vw;
+	    	height: 100vh;
+	    	background:url("../images/header.jpg");
+	    	background-size: 100% 100%; 
+	    	padding: 70px;
+	    }
+	    .navbar-brand img{
+	    	width:180px;
+	    	height: 70px;
+	    	position: relative;
+	    	top: -25px;
+	    	left: -30px;
+	    	float: left;
+	    }
+	    #logo_name{
+	    	position: relative;
+	    	left: -80px;
+	    }
+	    header img{
+            width: 100%;
+            height: 100%;
+	    	position: relative;
+            top: -50px;
+            right: -50px;
+            opacity: .4;
+	    }
+	    header p{
+	    	color: yellow;
+	    	font-weight: bold;
+	    }
+	    #aside_menu{
+	    	padding-left: 80px;
+	    	border-right: 1px solid black;
+	    }
+	    .navbar-center{
+	    	float: none;
+	        display: table;
+	        table-layout: fixed;
+	        margin: 0 auto;
+	    }
+	    .panel-heading{
+	    	color: #1B4F72;
+	    }
+	    .panel-body{
+	    	height: 330px;
+	    }	
+        .panel-body img{
+        	height: 300px;
+        	width: 300px;
+        }
+        .panel-footer{
+        	width: 220px;
+        	margin-left: 15px;
+        	background-color:#FADC8F;
+            height: 50px;
+        }
+        .sign_up{
+        	border: 1px solid grey;
+        	padding: 20px;
+        }
+        #menu_side{
+        	border-top: 1px solid black;
+        	padding-top: 20px;
+        	margin-top: 20px;
+        }
+        .well{
+           margin-left:10px;
+        }
+        #menu_side ul li{
+          list-style-type: none;
+	      padding-bottom: 10px;
+	      
+	    }
+        #menu_side ul{
+          margin-left: -10px;
+          padding: 0px;
+        }
+        .page-header h4{
+            font-size: 3em;
+            color: #2E86C1;
+        }
+
+
+        
+
